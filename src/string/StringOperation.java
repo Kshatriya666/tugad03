@@ -5,5 +5,9 @@ public class StringOperation {
         String city = "Martapura";
 
         System.out.println(city);
+
+        char[] namaChar = { 'M','U','H','A','M','M','A','D' };
+        String namaString = new String(namaChar);
+        System.out.println(namaString);
     }
 }
